@@ -1,0 +1,27 @@
+{
+  "name": "mustafaemreozmen",
+  "version": "1.0.0",
+  "description": "Mustafa Emre Ozmen's CV for terminal geeks.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "bin": {
+    "mustafaemreozmen": "index.js"
+  },
+  "keywords": [
+    "meo",
+    "signoconte",
+    "mustafaemreozmen"
+  ],
+  "author": "mustafaemreozmen",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/mustafaemreozmen/meo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.3",
+    "terminal-kit": "^3.0.0"
+  }
+}

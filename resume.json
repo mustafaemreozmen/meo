@@ -1,0 +1,225 @@
+{
+  "name": "Mustafa Emre",
+  "surname": "ÖZMEN",
+  "photoUri": "https://pbs.twimg.com/profile_images/1628672062825943041/E23028Tj_400x400.jpg",
+  "links": [
+    {
+      "type": "ADDRESS",
+      "value": "İstanbul, Türkiye 🇹🇷"
+    },
+    {
+      "type": "MAIL",
+      "value": "mustafa.eozmen@gmail.com 📨"
+    },
+    {
+      "type": "LINKEDIN",
+      "value": "https://www.linkedin.com/in/mustafaemreozmen/"
+    },
+    {
+      "type": "MEDIUM",
+      "value": "https://mustafaemreozmen.medium.com/"
+    },
+    {
+      "type": "GITHUB",
+      "value": "https://github.com/mustafaemreozmen"
+    },
+    {
+      "type": "YOUTUBE",
+      "value": "https://www.youtube.com/@mustafaemreozmen"
+    },
+    {
+      "type": "WEBSITE",
+      "value": "https://mustafaemreozmen.com/"
+    }
+  ],
+  "skills": [
+    "HTML/CSS",
+    "SCSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue",
+    "Angular",
+    "Node.js",
+    ".NET",
+    "ASP.NET/Core",
+    "gRPC",
+    "Electron",
+    "React Native",
+    "IIS",
+    "NGINX",
+    "Docker",
+    "Kubernetes",
+    "RabbitMQ",
+    "Kafka",
+    "Redis",
+    "MongoDB",
+    "RDBMS (Microsoft, Oracle, PostgreSQL and MySQL)",
+    "Design Patterns, SOA, Microservice"
+  ],
+  "workExperience": [
+    {
+      "title": "Specialist Software Engineer",
+      "description": "Vakıfbank offers banking products and services in corporate, commercial, SME, agricultural banking, retail and private banking. Vakıfbank is a 2nd largest bank by asset size in Turkey. I'm a software engineer at the “Deposit, Money Transfer & Investment” group “Deposit” department of Vakıfbank.",
+      "achievements": [
+        "● I was involved in the modernization of the company's banking system, including the transition from WPF to Angular and the deployment process from in-house development to a fully integrated Azure DevOps solution.",
+        "● I developed the currency-protected deposit product project, with a focus on YUVAM. During this project, I created the table structure for this module in relational databases. I also developed external and internal service integrations using RESTful and WSDL APIs, omnichannel solutions including mobile and web applications built with Angular, and reporting tools.",
+        "● I was responsible for the development of the expropriation project. During this project, I created the table structures and worked with omnichannel user interface solutions, including mobile, web with Angular, and desktop with WPF, as well as services using RESTful and WSDL APIs. I also prepared reports using Devexpress XtraReports.",
+        "● I was involved in the transition process of the banking application known as VIT at the Wien branch. During this project, I redesigned it to align with the deposit regulations in Wien. I also developed external service integrations using RESTful and WSDL APIs, omnichannel solutions including mobile and web applications built with Angular, and reporting tools."
+      ],
+      "techStack": [
+        "SOA (ESB) and microservice architecture",
+        "Oracle DB",
+        "PL/SQL",
+        ".NET (WPF, WCF, ASP.NET/Core)",
+        "Devexpress",
+        "KendoUI",
+        "Node.js",
+        "Angular",
+        "Ionic",
+        "Azure",
+        "Jenkins",
+        "Azure Devops",
+        "Redis",
+        "RabbitMQ",
+        "Kafka",
+        "TFS",
+        "Git"
+      ],
+      "company": "Vakıfbank",
+      "startDate": "01.08.2021T00:00:0000Z",
+      "endDate": null
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Intertech is a subsidiary of Denizbank Financial Services Group and provides solutions for the 15 million users across 44 banks. I worked as a software engineer at the \"Individual & Corporate Loans\" group, within the \"Web & Shopping Flows - AG\" department.",
+      "achievements": [
+        "I was responsible for the development of the individual credit application at Denizbank AG. During this project, I worked with external service integrations using RESTful and WSDL APIs, UI with IWT framework, and reporting tools."
+      ],
+      "techStack": [
+        "SOA (ESB) and microservice architecture",
+        "MSSQL",
+        ".NET (WPF, WCF, ASP.NET/Core)",
+        "Node.js",
+        "Vue",
+        "React",
+        "Docker",
+        "OpenShift",
+        "Jenkins",
+        "Kafka",
+        "TFS",
+        "Git"
+      ],
+      "company": "Intertech",
+      "startDate": "01.12.2020T00:00:0000Z",
+      "endDate": "01.08.2021T00:00:0000Z"
+    },
+    {
+      "title": "Full Stack Developer",
+      "description": "Ford Otosan is the automotive company with the largest installed production capacity in the Turkish automotive industry. I worked as a Full Stack Developer in the \"Material Planning & Logistics\" department.",
+      "achievements": [
+        "I developed export, import & material planning projects. I worked with services (RESTful & WSDL API), web applications (ASP.NET Web Forms) & reporting via Devexpress. I was involved in the transition of DevOps processes, including the development of CI/CD pipelines and the migration from TFS to GIT."
+      ],
+      "techStack": [
+        ".NET (Web Forms, MVC, WinForms)",
+        "Oracle DB",
+        "PL/SQL",
+        "IIS",
+        "NGINX"
+      ],
+      "company": "Ford Otosan",
+      "startDate": "01.03.2019T00:00:0000Z",
+      "endDate": "01.12.2020T00:00:0000Z"
+    },
+    {
+      "title": "Freelance Developer",
+      "description": "I worked as a Full Stack Developer with multiple clients and technologies. I developed mobile and web applications.",
+      "achievements": ["<TOP SECRET>"],
+      "techStack": [
+        "React",
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Git",
+        "PHP",
+        ".NET",
+        "Python"
+      ],
+      "company": "Ford Otosan",
+      "startDate": "01.03.2019T00:00:0000Z",
+      "endDate": "01.12.2020T00:00:0000Z"
+    }
+  ],
+  "education": [
+    {
+      "school": "İstanbul Ticaret University",
+      "degree": "MSc.",
+      "facility": "Computer Science",
+      "startDate": "01.02.2023T00:00:0000Z",
+      "endDate": null
+    },
+    {
+      "school": "Sakarya University",
+      "degree": "BSc.",
+      "facility": "Computer Science",
+      "startDate": "01.09.2017T00:00:0000Z",
+      "endDate": "01.06.2021T00:00:0000Z"
+    }
+  ],
+  "exams": [
+    {
+      "name": "Academic Personnel and Graduate Education Exam",
+      "issuer": "ÖSYM",
+      "examDate": "01.12.2022T00:00:0000Z",
+      "grade": 76
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Fundamentals of Business Analyst (Agile & Scrum)",
+      "issuer": "Bilge Adam",
+      "examDate": "01.01.2020T00:00:0000Z",
+      "grade": null
+    },
+    {
+      "name": "Fundamentals of Containers, Integration w/K8S",
+      "issuer": "Bilge Adam",
+      "examDate": "01.02.2020T00:00:0000Z",
+      "grade": null
+    },
+    {
+      "name": "AZ-900 Azure Fundamentals",
+      "issuer": "Bilge Adam",
+      "examDate": "01.04.2020T00:00:0000Z",
+      "grade": null
+    },
+    {
+      "name": "AZ-400 Azure Devops Engineering",
+      "issuer": "Bilge Adam",
+      "examDate": "01.05.2020T00:00:0000Z",
+      "grade": null
+    },
+    {
+      "name": "Azure Security Services",
+      "issuer": "Microsoft",
+      "examDate": "01.07.2020T00:00:0000Z",
+      "grade": null
+    },
+    {
+      "name": "Enterprise Design Patterns",
+      "issuer": "Bilge Adam",
+      "examDate": "01.08.2020T00:00:0000Z",
+      "grade": null
+    }
+  ],
+  "languages": [
+    {
+      "lang": "TR",
+      "level": "Native-Speaker"
+    },
+    {
+      "lang": "EN",
+      "level": "B2"
+    }
+  ]
+}
