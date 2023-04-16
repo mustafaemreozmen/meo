@@ -1,6 +1,5 @@
-# meo - CLI Resmue
-
-### Boring sunday project for viewing resume from CLI. Written with JS.
+# meo - CLI Resume
+### Boring sunday project for viewing resume from CLI. Written with JS.
 
 ---
 
