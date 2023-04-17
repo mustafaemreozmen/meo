@@ -1,4 +1,4 @@
-# meo - CLI Resume
+# goko - CLI Resume
 ### Boring sunday project for viewing resume from CLI. Written with JS.
 
 ---
