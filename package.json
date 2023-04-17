@@ -1,23 +1,22 @@
 {
-  "name": "mustafaemreozmen",
+  "name": "goko",
   "version": "1.0.0",
-  "description": "Mustafa Emre Ozmen's CV for terminal geeks.",
+  "description": "A. Goktug Yalcin's CV for terminal geeks.",
   "main": "index.js",
   "scripts": {
     "run": "node index.js"
   },
   "bin": {
-    "mustafaemreozmen": "index.js"
+    "goko": "index.js"
   },
   "keywords": [
-    "meo",
-    "signoconte",
-    "mustafaemreozmen"
+    "goko",
+    "GoktugYalcin"
   ],
-  "author": "mustafaemreozmen",
+  "author": "GoktugYalcin",
   "repository": {
     "type": "git",
-    "directory": "https://github.com/mustafaemreozmen/meo.git"
+    "directory": "https://github.com/GoktugYalcin/goko.git"
   },
   "license": "MIT",
   "dependencies": {
