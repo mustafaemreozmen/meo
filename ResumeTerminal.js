@@ -46,10 +46,10 @@ class ResumeTerminal {
       submittedStyle: this.#tk.bold.bgYellow,
     });
   
-    this.#singleColumnMenu.on("submit", this.singleColumnMenuSettings());
+    this.#singleColumnMenu.on("submit", (arg) => this.#singleColumnMenuSettings(arg));
   };
 
-  singleColumnMenuSettings = () => async (arg) => {
+  #singleColumnMenuSettings = (arg) => {
     if (arg.canceled || arg.selectedText == "exit") process.exit(0);
     this.#tk.clear();
     this.#tk.nextLine(1).green("Do you need another information? (CTRL+C for exit)").nextLine(2);
