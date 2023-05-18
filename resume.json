@@ -1,7 +1,7 @@
 {
   "name": "Mustafa Emre",
   "surname": "ÖZMEN",
-  "photoUri": "https://pbs.twimg.com/profile_images/1628672062825943041/E23028Tj_400x400.jpg",
+  "photoUri": "https://i.ibb.co/94h6w8j/E23028-Tj-400x400.jpg",
   "links": [
     {
       "type": "ADDRESS",
@@ -59,6 +59,26 @@
   ],
   "workExperience": [
     {
+      "title": "Senior Software Engineer",
+      "description": "TurkNet is an internet service provider in Turkey that offers fiber, fast and contract-free internet. I'm a senior software engineer at the \"Network\" group.",
+      "achievements": [],
+      "techStack": [
+        ".NET (ASP.NET/Core)",
+        "React",
+        "Node.js",
+        "Azure",
+        "Jenkins",
+        "Redis",
+        "RabbitMQ",
+        "Kafka",
+        "TFS",
+        "Git"
+      ],
+      "company": "Turknet",
+      "startDate": "12.06.2023T00:00:0000Z",
+      "endDate": null
+    },
+    {
       "title": "Specialist Software Engineer",
       "description": "Vakıfbank offers banking products and services in corporate, commercial, SME, agricultural banking, retail and private banking. Vakıfbank is a 2nd largest bank by asset size in Turkey. I'm a software engineer at the “Deposit, Money Transfer & Investment” group “Deposit” department of Vakıfbank.",
       "achievements": [
@@ -88,7 +108,7 @@
       ],
       "company": "Vakıfbank",
       "startDate": "01.08.2021T00:00:0000Z",
-      "endDate": null
+      "endDate": "07.06.2023T00:00:0000Z"
     },
     {
       "title": "Software Engineer",
