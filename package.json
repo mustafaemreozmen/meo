@@ -1,6 +1,6 @@
 {
   "name": "mustafaemreozmen",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Mustafa Emre Ozmen's CV for terminal geeks.",
   "main": "index.js",
   "scripts": {
