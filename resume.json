@@ -1,7 +1,7 @@
 {
   "name": "Mustafa Emre",
   "surname": "ÖZMEN",
-  "photoUri": "https://i.ibb.co/94h6w8j/E23028-Tj-400x400.jpg",
+  "photoUri": "https://avatars.githubusercontent.com/u/32592526",
   "links": [
     {
       "type": "ADDRESS",
@@ -60,23 +60,35 @@
   "workExperience": [
     {
       "title": "Senior Software Engineer",
-      "description": "TurkNet is an internet service provider in Turkey that offers fiber, fast and contract-free internet. I'm a senior software engineer at the \"Network\" group.",
-      "achievements": [],
+      "description": "Turknet is a leading internet service provider in Turkey, offering high-speed broadband, voice and data services to residential and business customers. Turknet operates its own fiber-optic network, covering more than 80% of the population, and delivers innovative solutions such as cloud computing, internet of things and smart home applications. I’m a senior software engineer at the \"“Network Development\"” group \"“Mediation\"” department of Turknet.",
+      "achievements": [
+        "● PortAuth is a project that aims to improve the authentication, authorization and accounting (AAA) processes of Turknet users. By using PortAuth enhances the security and reliability of Turknet's network, reducing the risk of unauthorized access and fraud.",
+        "● I have been involved in the microservice transformation process of many monolithic applications, converting them into services that follow the microservice and DDD principles. In this process, I have applied the best practices of domain-driven design, such as identifying bounded contexts, defining ubiquitous language, designing aggregates and entities, and implementing domain events. I have also used various tools and frameworks to facilitate the development, deployment, and monitoring of microservices."
+      ],
       "techStack": [
+        "Microservice architecture and Domain Driven Designed monolith services", 
+        "PostgreSQL", 
+        "MSSQL", 
+        "MongoDB", 
+        "Neo4j", 
         ".NET (ASP.NET/Core)",
-        "React",
-        "Node.js",
+        "Spring Boot", 
         "Azure",
-        "Jenkins",
-        "Redis",
-        "RabbitMQ",
-        "Kafka",
-        "TFS",
+        "Jenkins", 
+        "Azure Devops", 
+        "Bitbucket", 
+        "Spring Boot", 
+        "RabbitMQ", 
+        "Kafka", 
+        "Docker", 
+        "Kubernetes", 
+        "Grafana", 
+        "ELK", 
         "Git"
       ],
       "company": "Turknet",
-      "startDate": "12.06.2023T00:00:0000Z",
-      "endDate": null
+      "startDate": "2023-06-12T00:00:0000Z",
+      "endDate": "2023-07-29T00:00:0000Z"
     },
     {
       "title": "Specialist Software Engineer",
@@ -131,8 +143,8 @@
         "Git"
       ],
       "company": "Intertech",
-      "startDate": "01.12.2020T00:00:0000Z",
-      "endDate": "01.08.2021T00:00:0000Z"
+      "startDate": "2020-12-01T00:00:0000Z",
+      "endDate": "2021-08-01T00:00:0000Z"
     },
     {
       "title": "Full Stack Developer",
@@ -148,8 +160,8 @@
         "NGINX"
       ],
       "company": "Ford Otosan",
-      "startDate": "01.03.2019T00:00:0000Z",
-      "endDate": "01.12.2020T00:00:0000Z"
+      "startDate": "2019-03-01T00:00:0000Z",
+      "endDate": "2020-12-01T00:00:0000Z"
     },
     {
       "title": "Freelance Developer",
@@ -165,9 +177,9 @@
         ".NET",
         "Python"
       ],
-      "company": "Ford Otosan",
-      "startDate": "01.03.2019T00:00:0000Z",
-      "endDate": "01.12.2020T00:00:0000Z"
+      "company": "Özmen Yazılım ve Danışmanlık",
+      "startDate": "2019-03-01T00:00:0000Z",
+      "endDate": null
     }
   ],
   "education": [
@@ -175,22 +187,22 @@
       "school": "İstanbul Ticaret University",
       "degree": "MSc.",
       "facility": "Computer Science",
-      "startDate": "01.02.2023T00:00:0000Z",
+      "startDate": "2023-02-01T00:00:0000Z",
       "endDate": null
     },
     {
       "school": "Sakarya University",
       "degree": "BSc.",
       "facility": "Computer Science",
-      "startDate": "01.09.2017T00:00:0000Z",
-      "endDate": "01.06.2021T00:00:0000Z"
+      "startDate": "2017-09-01T00:00:0000Z",
+      "endDate": "2021-06-01T00:00:0000Z"
     }
   ],
   "exams": [
     {
       "name": "Academic Personnel and Graduate Education Exam",
       "issuer": "ÖSYM",
-      "examDate": "01.12.2022T00:00:0000Z",
+      "examDate": "2022-12-01T00:00:0000Z",
       "grade": 76
     }
   ],
@@ -198,37 +210,37 @@
     {
       "name": "Fundamentals of Business Analyst (Agile & Scrum)",
       "issuer": "Bilge Adam",
-      "examDate": "01.01.2020T00:00:0000Z",
+      "examDate": "2020-01-01T00:00:0000Z",
       "grade": null
     },
     {
       "name": "Fundamentals of Containers, Integration w/K8S",
       "issuer": "Bilge Adam",
-      "examDate": "01.02.2020T00:00:0000Z",
+      "examDate": "2020-02-01T00:00:0000Z",
       "grade": null
     },
     {
       "name": "AZ-900 Azure Fundamentals",
       "issuer": "Bilge Adam",
-      "examDate": "01.04.2020T00:00:0000Z",
+      "examDate": "2020-04-01T00:00:0000Z",
       "grade": null
     },
     {
       "name": "AZ-400 Azure Devops Engineering",
       "issuer": "Bilge Adam",
-      "examDate": "01.05.2020T00:00:0000Z",
+      "examDate": "2020-05-01T00:00:0000Z",
       "grade": null
     },
     {
       "name": "Azure Security Services",
       "issuer": "Microsoft",
-      "examDate": "01.07.2020T00:00:0000Z",
+      "examDate": "2020-07-01T00:00:0000Z",
       "grade": null
     },
     {
       "name": "Enterprise Design Patterns",
       "issuer": "Bilge Adam",
-      "examDate": "01.08.2020T00:00:0000Z",
+      "examDate": "2020-08-01T00:00:0000Z",
       "grade": null
     }
   ],

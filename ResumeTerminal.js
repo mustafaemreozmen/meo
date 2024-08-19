@@ -18,18 +18,18 @@ class ResumeTerminal {
     });
   };
 
-  drawImage = async () => {
-    //Draw an image...
+  drawImage = async (width, height) => {
     await this.#tk.drawImage(this.#resumeObj.photoUri, {
       shrink: {
-        width: 50,
-        height: 50,
+        width,
+        height,
       },
     });
   };
 
   singleColumnMenu = (resume) => {
     this.#singleColumnMenu = this.#tk.singleColumnMenu(Object.keys(resume), {
+      y: this.#tk.height + 2,
       submittedLeftPadding: " ➡️ ",
       leftPadding: " · ",
       cancelable: true,
@@ -37,6 +37,7 @@ class ResumeTerminal {
       continueOnSubmit: true,
       selectedStyle: this.#tk.bgBlue,
       submittedStyle: this.#tk.bold.bgYellow,
+      extraLines: 3,
     });
 
     this.#singleColumnMenu.on("submit", (arg) =>
@@ -46,16 +47,11 @@ class ResumeTerminal {
 
   #singleColumnMenuSettings = (arg) => {
     if (arg.canceled) process.exit(0);
-    this.#tk.nextLine(Object.keys(this.#resumeObj).length);
-    this.#tk
-      .wrapColumn(75)
-      .bold.yellow(
-        JSON.stringify(this.#resumeObj[arg.selectedText], null, "  ")
-      );
-    this.#tk
-      .nextLine(1)
-      .green("Do you need another information? (CTRL+C for exit)")
-      .nextLine(2);
+    this.#tk.nextLine(Object.keys(this.#resumeObj).length * 2);
+    this.#tk.bold.yellow(
+      JSON.stringify(this.#resumeObj[arg.selectedText], null, "  ")
+    );
+    this.#tk.green("\n\nDo you need another information? (CTRL+C for exit)");
     this.singleColumnMenu(this.#resumeObj);
   };
 
@@ -65,12 +61,11 @@ class ResumeTerminal {
     this.#tk.on("key", (key) => {
       if (key == "CTRL_C" || key == "ESC") {
         this.#tk.grabInput(false);
-        this.#tk.nextLine;
         process.exit(0);
       }
     });
 
-    await this.drawImage();
+    await this.drawImage(50, 50);
     await this.slowTyping("\nHi! I'm ", "magenta");
     await this.slowTyping(
       `${this.#resumeObj.name} ${this.#resumeObj.surname}\n`,
